@@ -1,0 +1,37 @@
+{
+  "name": "valkey-errors",
+  "version": "1.0.0",
+  "description": "Error classes used in Valkey clients",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevelopersrinu/valkey-errors.git"
+  },
+  "keywords": [
+    "valkey",
+    "javascript",
+    "node",
+    "error"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0",
+    "standard": "^17.0.0"
+  },
+  "author": "Stalwart Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webdevelopersrinu/valkey-errors/issues"
+  },
+  "homepage": "https://github.com/webdevelopersrinu/valkey-errors#readme",
+  "directories": {
+    "test": "test",
+    "lib": "lib"
+  }
+}

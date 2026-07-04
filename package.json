@@ -1,8 +1,14 @@
 {
   "name": "valkey-errors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Error classes used in Valkey clients",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib"
+  ],
   "scripts": {
     "test": "mocha",
     "lint": "standard --fix"
